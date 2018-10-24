@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraceSail", "GraceSail\GraceSail.csproj", "{5495AE94-0ABA-4AA5-AC9F-69F29555EE67}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5495AE94-0ABA-4AA5-AC9F-69F29555EE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5495AE94-0ABA-4AA5-AC9F-69F29555EE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5495AE94-0ABA-4AA5-AC9F-69F29555EE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5495AE94-0ABA-4AA5-AC9F-69F29555EE67}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10C26F4F-9293-4843-804B-0823ABAD0185}
+	EndGlobalSection
+EndGlobal
