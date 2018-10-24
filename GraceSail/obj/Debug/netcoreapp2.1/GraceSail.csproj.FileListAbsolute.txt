@@ -30,3 +30,8 @@ C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\GraceSail.V
 C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\GraceSail.dll
 C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\GraceSail.pdb
 C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\GraceSail.csproj.CopyComplete
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembershipTypes\Create.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembershipTypes\Delete.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembershipTypes\Details.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembershipTypes\Edit.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembershipTypes\Index.g.cshtml.cs
