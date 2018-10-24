@@ -66,7 +66,7 @@ using GraceSail.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n\r\n<html>\r\n");
             EndContext();
             BeginContext(98, 102, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fd7f6368049e454b90fc6d21ce07dbd4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "afbbde439e384222ae24891e965d9d3e", async() => {
                 BeginContext(104, 89, true);
                 WriteLiteral("\r\n    <meta name=\"viewport\" content=\"width=device-width\" />\r\n    <title>Details</title>\r\n");
                 EndContext();
@@ -86,7 +86,7 @@ using GraceSail.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(202, 609, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f9625e0bcc114e2a9b8a193cc0eb9182", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14c68c14ce0949ea92ed96612ef30706", async() => {
                 BeginContext(208, 110, true);
                 WriteLiteral("\r\n\r\n<div>\r\n    <h4>MembershipType</h4>\r\n    <hr />\r\n    <dl class=\"dl-horizontal\">\r\n        <dt>\r\n            ");
                 EndContext();
@@ -131,7 +131,7 @@ using GraceSail.Models;
                 WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
                 EndContext();
                 BeginContext(678, 70, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d0bb2b18be4343aba9f6116324514212", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1381fbe87f074e74a2fe7c5bfd6cfa44", async() => {
                     BeginContext(740, 4, true);
                     WriteLiteral("Edit");
                     EndContext();
@@ -166,7 +166,7 @@ using GraceSail.Models;
                 WriteLiteral(" |\r\n    ");
                 EndContext();
                 BeginContext(756, 38, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "371352f0b8eb4c5a94ff9c633eb05ece", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "af07b72a82a54c82bc88340a1b05ada7", async() => {
                     BeginContext(778, 12, true);
                     WriteLiteral("Back to List");
                     EndContext();
