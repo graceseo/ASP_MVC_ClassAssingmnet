@@ -35,3 +35,13 @@ C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views
 C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembershipTypes\Details.g.cshtml.cs
 C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembershipTypes\Edit.g.cshtml.cs
 C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembershipTypes\Index.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceTasks\Create.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceTasks\Delete.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceTasks\Details.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceTasks\Edit.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceTasks\Index.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceBoatTypes\Create.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceBoatTypes\Delete.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceBoatTypes\Details.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceBoatTypes\Edit.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_Homework3\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceBoatTypes\Index.g.cshtml.cs
