@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Created by : Grace Seo
+ * Date: Oct 24, 2018
+ * Purpose: a controller for CRUD to a Boat Types table
+ */
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
