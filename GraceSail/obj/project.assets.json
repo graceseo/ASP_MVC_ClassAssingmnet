@@ -12224,11 +12224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\SCHOOL\\GitHub\\ASP_MVC_Homework3\\GraceSail\\GraceSail.csproj",
+      "projectUniqueName": "C:\\SCHOOL\\GitHub\\ASP_MVC_ClassAssingmnet\\GraceSail\\GraceSail.csproj",
       "projectName": "GraceSail",
-      "projectPath": "C:\\SCHOOL\\GitHub\\ASP_MVC_Homework3\\GraceSail\\GraceSail.csproj",
+      "projectPath": "C:\\SCHOOL\\GitHub\\ASP_MVC_ClassAssingmnet\\GraceSail\\GraceSail.csproj",
       "packagesPath": "C:\\Users\\dbmas\\.nuget\\packages\\",
-      "outputPath": "C:\\SCHOOL\\GitHub\\ASP_MVC_Homework3\\GraceSail\\obj\\",
+      "outputPath": "C:\\SCHOOL\\GitHub\\ASP_MVC_ClassAssingmnet\\GraceSail\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
