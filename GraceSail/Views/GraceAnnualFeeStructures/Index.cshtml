@@ -1,7 +1,7 @@
 ﻿@model IEnumerable<GraceSail.Models.AnnualFeeStructure>
 
 @{
-
+    ViewData["Title"] = "Annual fees by year";
 }
 
 <!DOCTYPE html>
@@ -9,11 +9,11 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
+    <title>@ViewData["Title"]</title>
 </head>
 <body>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Create New </a>
 </p>
 <table class="table">
     <thead>

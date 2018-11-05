@@ -1,6 +1,7 @@
 ﻿@model GraceSail.Models.AnnualFeeStructure
 
 @{
+    ViewData["Title"] = "Delete a Annual fee record";
 }
 
 <!DOCTYPE html>
@@ -8,13 +9,13 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Delete</title>
+    <title>@ViewData["Title"]</title>
 </head>
 <body>
 
 <h3>Are you sure you want to delete this?</h3>
 <div>
-    <h4>AnnualFeeStructure</h4>
+    <h4>@ViewData["Title"]</h4>
     <hr />
     <dl class="dl-horizontal">
         <dt>

@@ -97,3 +97,13 @@ C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor
 C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceAnnualFeeStructures\Details.g.cshtml.cs
 C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceAnnualFeeStructures\Edit.g.cshtml.cs
 C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceAnnualFeeStructures\Index.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembers\Create.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembers\Delete.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembers\Details.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembers\Edit.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMembers\Index.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMemberships\Create.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMemberships\Delete.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMemberships\Details.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMemberships\Edit.g.cshtml.cs
+C:\SCHOOL\GitHub\ASP_MVC_ClassAssingmnet\GraceSail\obj\Debug\netcoreapp2.1\Razor\Views\GraceMemberships\Index.g.cshtml.cs

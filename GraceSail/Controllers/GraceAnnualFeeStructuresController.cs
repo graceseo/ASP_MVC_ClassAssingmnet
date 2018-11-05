@@ -81,17 +81,30 @@ namespace GraceSail.Controllers
         // GET: GraceAnnualFeeStructures/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            int currentYear = DateTime.Now.Year;
+
+            //if the user tries to edit a prior years's record, return the index view --Grace
+            if (id >= currentYear)
             {
-                return NotFound();
+                if (id == null)
+                {
+                    return NotFound();
+                }
+
+                var annualFeeStructure = await _context.AnnualFeeStructure.FindAsync(id);
+                if (annualFeeStructure == null)
+                {
+                    return NotFound();
+                }
+                //Show the edit view --Grace
+                return View(annualFeeStructure);
+            }
+            else
+            {
+                //show the index view --Grace
+                return RedirectToAction(nameof(Index));
             }
 
-            var annualFeeStructure = await _context.AnnualFeeStructure.FindAsync(id);
-            if (annualFeeStructure == null)
-            {
-                return NotFound();
-            }
-            return View(annualFeeStructure);
         }
 
         // POST: GraceAnnualFeeStructures/Edit/5

@@ -3,6 +3,7 @@
 @{
     //Store the current year in TempData -Grace
     TempData["date"] = DateTime.Now.Year;
+    ViewData["Title"] = "Create a new Annual Fee Record";
 }
 
 <!DOCTYPE html>
@@ -10,11 +11,11 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Create</title>
+    <title>@ViewData["Title"]</title>
 </head>
 <body>
 
-<h4>AnnualFeeStructure</h4>
+    <h4>@ViewData["Title"]</h4>
 <hr />
     <div class="row">
     <div class="col-md-4">
