@@ -22,7 +22,8 @@
         </dt>
         <dd>
             <!--Link to Memebership View --Grace -->
-            <a href="@Url.Action("Index", "GraceMemberShips", new {Memberid=Model.MemberId })">@Html.DisplayFor(model => model.FullName)</a>
+            <a href="@Url.Action("Index", "GraceMemberShips", new {Memberid=Model.MemberId ,memberFullName = Model.FullName })">
+            @Html.DisplayFor(model => model.FullName)</a>
 </dd>
         <dt>
             @Html.DisplayNameFor(model => model.FirstName)

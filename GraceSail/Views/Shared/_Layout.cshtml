@@ -19,14 +19,16 @@
 <body style="margin: auto">
     <nav class="navbar navbar-inverse navbar-fixed-top" >
         <div class="container" style="position: absolute" >
-            <div class="navbar-header" >
+            <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <img src="~/images/boat.png" style="float: left; padding-right: 15px;">
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">
+                    <img src="~/images/boat.png" style="width:45px; height:30px;position: inherit;"/> <!-- Add an image --Grace -->
+                </a>
                 <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">GraceSail</a>
             </div>
             <div class="navbar-collapse collapse">
@@ -46,7 +48,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <!--Added those style and span parts-->
+            <!--Added those style and span parts  --Grace -->
             <p style="text-align:left;">
                 &copy; 2018 - <a href="mailto:gseo5840@conestogac.on.ca">Grace</a>
                 <span style="float:right;">

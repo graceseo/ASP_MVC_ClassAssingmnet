@@ -21,19 +21,21 @@ namespace GraceSail.Controllers
 
         // GET: GraceMemberships
         //Add a parameter which will recieve Query string --Grace
-        public async Task<IActionResult> Index(int memberId = 0, string memberFullName="")
+        public async Task<IActionResult> Index(int memberId = 0, string memberFullName = "")
         {
             //Check memberId is not 0 --Grace
             if (memberId > 0)
             {
                 HttpContext.Session.SetInt32("memberId", memberId);
             }
-
             //check whether the Session has memberId --Grace
             if (HttpContext.Session.GetInt32("memberId") != null)
             {
                 memberId = Convert.ToInt32(HttpContext.Session.GetInt32("memberId"));
                 var sailContext = _context.Membership.Where(m => m.MemberId == memberId).Include(m => m.Member).Include(m => m.MembershipTypeNameNavigation).OrderByDescending(m => m.Year);
+
+                //store user's full name into TempData
+                TempData["fullName"] = memberFullName;
 
                 return View(await sailContext.ToListAsync());
             }
@@ -67,20 +69,29 @@ namespace GraceSail.Controllers
         // GET: GraceMemberships/Create
         public IActionResult Create()
         {
-            ViewData["MemberId"] = new SelectList(_context.Member, "MemberId", "FirstName");
-            ViewData["MembershipTypeName"] = new SelectList(_context.MembershipType, "MembershipTypeName", "MembershipTypeName");
+            //ViewData["MemberId"] = new SelectList(_context.Member, "MemberId", "FirstName"); //Drop list --Grace
+            ViewData["MemeberId"] = Convert.ToInt32(HttpContext.Session.GetInt32("memberId"));
+            ViewData["MembershipTypeName"] = new SelectList(_context.MembershipType.OrderBy(m => m.MembershipTypeName), "MembershipTypeName", "MembershipTypeName");
             return View();
         }
 
         // POST: GraceMemberships/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("MembershipId,MemberId,Year,MembershipTypeName,Fee,Comments,Paid")] Membership membership)
         {
             if (ModelState.IsValid)
             {
+                //Calculate fee --Grace
+                AnnualFeeStructure anualFee = _context.AnnualFeeStructure.Where(m => m.Year == membership.Year).FirstOrDefault();
+                MembershipType memType = _context.MembershipType.Where(m => m.MembershipTypeName == membership.MembershipTypeName).FirstOrDefault();
+
+                if (anualFee != null && memType != null)
+                {
+                    membership.Fee = (double)anualFee.AnnualFee * memType.RatioToFull;
+                }
+
                 _context.Add(membership);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -102,6 +113,13 @@ namespace GraceSail.Controllers
             if (membership == null)
             {
                 return NotFound();
+            }
+            // If click prior year's record, it will show error message and redirect Index pasge
+            if (membership.Year != DateTime.Now.Year)
+            {
+                TempData["errorMesg"] = "You can't edit prior years' data";
+
+                return RedirectToAction("Index", "GraceMembers");
             }
             ViewData["MemberId"] = new SelectList(_context.Member, "MemberId", "FirstName", membership.MemberId);
             ViewData["MembershipTypeName"] = new SelectList(_context.MembershipType, "MembershipTypeName", "MembershipTypeName", membership.MembershipTypeName);
